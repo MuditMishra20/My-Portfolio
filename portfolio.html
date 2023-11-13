@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+.bgimage {
+    height:100vh;
+    background: url('picmudit.jpeg');
+    background-size:cover;
+    position:relative;
+}
+
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(9, 9, 9);
+}
+
+.imageAboutPage {
+    width: 100%;
+}
+
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+
+
+.fab {
+    color: #000000;
+}
+
+
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
+#services{
+    background-color: aliceblue;
+}
+.icons a{
+    text-decoration: none;
+    color: #280707;
+}
+.icons ion-icon{
+    color: #320404;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: #ff7200;
+}
+.copyright{
+    text-decoration: none;
+    color: #b73a3a;
+    color: #793c3c;
+    font-size: 20px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.copyright ion-icon:hover{
+    color: #ff7200;
+}
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="brand.html">Mudit_Mishra</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Hi, it's me Mudit</h2>
+                <p class="hero_desc">I am a professional Developer in India City Panna</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="photo111.jpeg" class= "imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <p> The great pleasure introduce my self.
+
+                        I’m mudit , Im from a small village call Native, Since 3 years I’m working as web developer in Company name and location. have developed many website and apart from the I have been part of web design project, office work and as freelancer. .
+                        
+                        Then introduce your family background after that introduce you education background.
+                        
+                        Explore the you skills different way.
+                        
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Mudit_Mishra</li>
+                                <li>Age: 18</li>
+                                <li>Software Developer</li>
+
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Front End Developer</li>
+                                <li>Back End Developer</li>
+                                <li>C/C++</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <p> Like you, I've found that there exist very little in the way front-end web development courses. And the courses that do exist leave a lot to be desired. As a result, it seems to me that most good front-end developers I've met are more or less self-taught. So if all we're trying to do is answer the question you posted ("How do people generally become front-end web developers?") we can stop right here. I tend to agree with your speculation that most of them are probably self-taught.
+                            I'm not saying that you should never read a book. Often when you first start out it's good to read at least one introductory book to sort of get your bearings and learn some basic terminology. But don't expect books to do the learning for you.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    
+    <section id="services">
+        <div class="container">
+            <h1 class="text-center">Services</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-clock"></i>
+                            <h4 class="card-title mt-3">Website Development</h4>
+                            <p class="card-text mt-3">Web development typically refers to the coding and programming side of website production. When you learn web development, you might start out writing a simple page of HTML text and build up to creating more complex, feature-rich applications designed to be accessed from various Internet-connected devices.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-layer-group'></i>
+                            <h4 class="card-title mt-3">Website Design</h4>
+                            <p class="card-text mt-3">Web designing is the process of planning, conceptualizing, and implementing the plan for designing a website in a way that is functional and offers a good user experience. so that the website is simple and efficient, allows users to quickly find the information they need, and looks visually pleasing. All these factors, when combined, decide how well the website is designed.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='far servicesIcon fa-check-circle'></i>
+                            <h4 class="card-title mt-3">Website Deployment</h4>
+                            <p class="card-text mt-3">What does it mean to deploy a website? Deploying a website means that you are deploying changes you have made to your website, typically code, from source control to an environment (typically development, staging, or live).
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-search'></i>
+                            <h4 class="card-title mt-3">SEO</h4>
+                            <p class="card-text mt-3">SEO stands for “search engine optimization.” In simple terms, SEO means the process of improving your website to increase its visibility in Google, Microsoft Bing, and other search engines whenever people search for: Products you sell.
+                            Services yoru provide. Information on topics in which you have deep expertise and/or experience.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-shield-alt'></i>
+                            <h4 class="card-title mt-3">DevOps</h4>
+                            <p class="card-text mt-3">DevOps is the combination of cultural philosophies, practices, and tools that increases an organization’s ability to deliver r pace than organizations using traditional software development and infrastructure management processes. This speed enables organizations to better serve their customers and compete more effectively in the market.
+
+
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-wrench'></i>
+                            <h4 class="card-title mt-3">QA</h4>
+                            <p class="card-text mt-3">QA establishes and maintains set requirements for developing or manufacturing reliable products. A quality assurance system is meant to increase customer confidence and a company's credibility, while also improving work processes and efficiency, and it enables a company to better compete with others.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const header = document.querySelector('.navbar');
+
+window.onscroll = function() {
+    var top = window.scrollY;
+    if(top >=100) {
+        header.classList.add('navbarDark');
+    }
+    else {
+        header.classList.remove('navbarDark');
+    }
+}
+    </script>
+
+<section id="portfolio">
+    <div class="container mt-3">
+        <h1 class="text-center">Portfolio</h1>
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card">
+                    <img class="card-img-top" src="port.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">YouTube Clone</h4>
+                        <p class="card-text">The YoueTube is a biggest platform in this time so we are create a clon and work.</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card portfolioContent">
+                    <img class="card-img-top" src="port2.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Quiz App</h4>
+                        <p class="card-text">Quiz app is creat only fun for children's and adults everyone.</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card portfolioContent">
+                    <img class="card-img-top" src="port4.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Product Landing Page</h4>
+                        <p class="card-text">Netflix Amazon Prime is not prefect but its totaly free for everyone's.</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card portfolioContent">
+                    <img class="card-img-top" src="port5.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Messaging Service</h4>
+                        <p class="card-text">Masseges are very important in our life but it's free for every person .</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card portfolioContent">
+                    <img class="card-img-top" src="port6.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Twitter Clone</h4>
+                        <p class="card-text">Elon-Musk is very fuck man and richest man but twitter is best platfrom for informations.</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card portfolioContent">
+                    <img class="card-img-top" src="port7.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Blog App</h4>
+                        <p class="card-text">Bloging is very best for our life and create in web pages and websites in googles.</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </section>
+
+        <section id="contact">
+            <div class="container mt-3 contactContent">
+                <h1 class="text-center">Contact Me</h1>
+    
+                <div class="row mt-4">
+                    <div class="col-lg-6">
+                       
+                        <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                            <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                                <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=new+york&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                                </iframe>
+                            </div>
+                            <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
+                            <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+                            </style>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-6">
+                        
+                        <form>
+                            <input type="text" class="form-control form-control-lg" placeholder="Name">
+                            <input type="email" class="form-control mt-3" placeholder="Email">
+                            <input type="text" class="form-control mt-3" placeholder="Subject">
+                            <div class="mb-3 mt-3">
+                                <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                            </div>
+                        </form>
+                        <button type="button" class="btn btn-success mt-3">Contact Me</button>
+                        
+                    </div>
+    
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="icons">
+                <a href="https://www.facebook.com/mudit.mishra.963"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="https://www.instagram.com/a_muditmishra/"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://twitter.com/MuditMi51370406?t=v58FwqDgTQpcoWnJx5c3vg&s=09"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="https://g.co/kgs/ephN4z"><ion-icon name="logo-google"></ion-icon></a>
+                <a href="live:.cid.52f9eb134822b1c7
+
+                "><ion-icon name="logo-skype"></ion-icon></a>
+                <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+        </div>    
+            <a class="copyright" href="#">&copy; 2023 | Student Clubs! | B.voc sd 3rd sem</a>
+        </footer>
+</body>
+</html>
